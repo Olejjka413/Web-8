@@ -21,3 +21,42 @@ while(i <= 15) {
     }
     i++;
 }
+
+/// Задание №3///
+console.log('\n');
+console.log('Задание №3');
+let c = 0;
+while(c <= 8) {
+    if (c % 2 == 0) {
+        console.log(' # # # #');
+    } 
+    else {
+        console.log('# # # # ');
+    }
+    c++;
+}
+
+/// Задание №4///
+console.log('\n');
+console.log('Задание №4');
+let n1 = prompt('Введите первое число');
+let n2 = prompt('Введите второе число');
+let n3 = prompt('Введите третье число');
+if (n1 <= n2 && n2 <= n3) {
+    console.log(n1, n2, n3)
+}
+if (n1 <= n3 && n3 <= n2) {
+    console.log(n1, n3, n2)
+}
+if (n2 <= n1 && n1 <= n3) {
+    console.log(n2, n1, n3)
+}  
+if (n2 <= n3 && n3 <= n1) {
+    console.log(n2, n3, n1)
+}
+if (n3 <= n1 && n1 <= n2) {
+    console.log(n3, n1, n2)
+}
+if (n3 <= n2 && n2 <= n1) {
+    console.log(n3, n2, n1)
+}   
