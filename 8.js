@@ -8,3 +8,16 @@ for (let i = 1; i <= s; i++)
 }
 console.log(txt)
 
+/// Задание №2 ///
+console.log('\n');
+console.log('Задание №2');
+let i = 0;
+while(i <= 15) {
+    if (i % 2 == 0) {
+        console.log(`${i}  ${'четное'}`);
+    } 
+    else {
+        console.log(`${i}  ${'нечетное'}`);
+    }
+    i++;
+}
