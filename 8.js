@@ -60,3 +60,9 @@ if (n3 <= n1 && n1 <= n2) {
 if (n3 <= n2 && n2 <= n1) {
     console.log(n3, n2, n1)
 }   
+
+/// Задание №5///
+console.log('\n');
+console.log('Задание №5');
+let arr = [5, 11, 40, -90, -5]
+console.log('Максимальное число среди чисел ' + arr + ' = ' + Math.max(5, 11, 40, -90, -5));
